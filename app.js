@@ -23,4 +23,8 @@ app.get("/kota.ejs", function(req, res) {
     res.render("kota.ejs")
 });
 
+app.get("/contact.ejs", function(req, res) {
+    res.render("contact.ejs")
+});
+
 app.listen(3001);
